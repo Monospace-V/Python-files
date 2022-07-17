@@ -1,2 +1,2 @@
 # Python-files
-My Python projects done on my home computer.
+My Python projects done on the home computer.
