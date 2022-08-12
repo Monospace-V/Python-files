@@ -6,7 +6,7 @@ primeCount=1 # Counter of primes
 TestedValue=1 # Value we're testing. Actual pH.
 while primeCount<=n:
     pFlag=True # Enter PrimeFlag in here or it'll never change. Always re-initialize within loop
-    TestedValue+=1
+    TestedValue+=1 # This converts it from 1 to 2 for the first number tested. 2 is prime but one is just "?"
     if TestedValue>3:
         TestedValue+=1 # Will be even at this stage. Adds 1.
     UL=int(((TestedValue**0.5)//1)+1)
@@ -23,3 +23,4 @@ print(s)
 # For 2: 0.8333333333333333
 # For 3: 1.0333333333333332
 # For 5: 1.2670995670995668
+# For 1000000: 3.1 something something.
